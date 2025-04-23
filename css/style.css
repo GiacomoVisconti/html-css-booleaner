@@ -53,8 +53,8 @@ header {
 
 #logo {
     background-image: url("../img/logo.svg");
-    height: 100%;
-    background-size: 20%;
+    height: 70px;
+    background-size: 12%;
     background-repeat: no-repeat;
     background-position: left bottom;
 }
@@ -96,4 +96,24 @@ table {
 thead {
     background-color: rgb(32, 170, 230);
     text-align: left;
+}
+
+.link-correlati {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 180px;
+    margin: 10px;
+}
+
+.link-monitor {
+    background-image: url("../img/monitor.jpg");
+}
+
+.link-grafico {
+    background-image: url("../img/graph.jpg");
+}
+
+.text-link-corr {
+    padding: 10px;
+    font-size: 20px;
 }
